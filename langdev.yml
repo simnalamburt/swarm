@@ -1,0 +1,6 @@
+version: '3'
+services:
+  langdev:
+    image: simnalamburt/langdev.org
+    ports:
+      - 8080:80
