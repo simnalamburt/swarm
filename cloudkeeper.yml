@@ -1,0 +1,14 @@
+version: '3'
+services:
+  s:
+    image: simnalamburt/cloudkeeper
+    env_file:
+      - /srv/cloudkeeper/s
+  m:
+    image: simnalamburt/cloudkeeper
+    env_file:
+      - /srv/cloudkeeper/m
+  h:
+    image: simnalamburt/cloudkeeper
+    env_file:
+      - /srv/cloudkeeper/h
