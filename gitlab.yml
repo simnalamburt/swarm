@@ -1,0 +1,11 @@
+version: '3'
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:11.6.5-ce.0
+    hostname: git.hyeon.me
+    ports:
+      - 8880:80
+    volumes:
+      - /srv/gitlab/config:/etc/gitlab
+      - /srv/gitlab/logs:/var/log/gitlab
+      - /srv/gitlab/data:/var/opt/gitlab
