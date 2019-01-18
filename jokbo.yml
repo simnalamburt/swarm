@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jokbo:
+    image: jokbo
+    ports:
+      - 3000:3000
+    volumes:
+      - /srv/jokbo/db:/data/db
+      - /srv/jokbo/files:/usr/src/app/static/files
