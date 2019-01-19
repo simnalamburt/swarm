@@ -8,6 +8,10 @@ services:
     image: simnalamburt/cloudkeeper
     env_file:
       - /srv/cloudkeeper/m
+  e:
+    image: simnalamburt/cloudkeeper
+    env_file:
+      - /srv/cloudkeeper/e
   h:
     image: simnalamburt/cloudkeeper
     env_file:
