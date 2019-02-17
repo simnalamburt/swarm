@@ -2,5 +2,7 @@ version: '3'
 services:
   hyeonbot:
     image: simnalamburt/hyeonbot
+    volumes:
+      - /srv/hyeonbot/db:/a
     env_file:
       - /srv/hyeonbot/secret
