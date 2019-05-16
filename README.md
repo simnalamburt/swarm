@@ -5,7 +5,6 @@ swarm
 ```sh
 docker swarm init
 
-docker stack deploy -c cloudkeeper.yml cloudkeeper
 docker stack deploy -c gitlab.yml      gitlab
 docker stack deploy -c hyeonbot.yml    hyeonbot
 docker stack deploy -c jokbo.yml       jokbo
