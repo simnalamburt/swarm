@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   rust-kr:
-    image: simnalamburt/rust-kr.org
+    image: simnalamburt/rust-kr.org:2019-05-16
     ports:
       - target: 8000
         published: 8000
