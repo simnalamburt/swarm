@@ -1,9 +1,0 @@
-version: '3.2'
-services:
-  rust-kr:
-    image: simnalamburt/rust-kr.org:2019-05-16
-    ports:
-      - target: 8000
-        published: 8000
-        # NOTE: ingress mode가 IPv6를 지원 안해서 이렇게함
-        mode: host

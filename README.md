@@ -8,7 +8,6 @@ docker swarm init
 docker stack deploy -c gitlab.yml      gitlab
 docker stack deploy -c hyeonbot.yml    hyeonbot
 docker stack deploy -c jokbo.yml       jokbo
-docker stack deploy -c rust-kr.yml     rust-kr
 ```
 
 ### TODOs
