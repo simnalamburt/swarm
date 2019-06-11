@@ -15,7 +15,5 @@ docker stack deploy -c jokbo.yml       jokbo
 
 - [ ] caddy
 - [ ] xz-mirror (/etc/systemd/system)
-- [ ] `/srv/hyeon.me`
 - [ ] `/srv/i.hyeon.me`
 - [ ] `/srv/kuma.hyeon.me`
-- [ ] `/srv/game.hyeon.me`
