@@ -1,7 +1,7 @@
 version: '3'
 services:
   hyeonbot:
-    image: simnalamburt/hyeonbot
+    image: simnalamburt/hyeonbot:build-1
     volumes:
       - /srv/hyeonbot/db:/a
     env_file:
