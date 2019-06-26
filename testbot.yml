@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hyeonbot:
+    image: eggdrop:1.8.4
+    volumes:
+      - /srv/testbot/data:/home/eggdrop/eggdrop/data
+    env_file:
+      - /srv/testbot/env
+    stdin_open: true
+    tty: true
