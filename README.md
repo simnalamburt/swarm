@@ -18,3 +18,4 @@ docker stack deploy -c jokbo.yml       jokbo
 - [ ] xz-mirror (/etc/systemd/system)
 - [ ] `/srv/i.hyeon.me`
 - [ ] `/srv/kuma.hyeon.me`
+- [ ] nullidentdmod
